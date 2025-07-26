@@ -1,6 +1,6 @@
 # Spring Boot Maven plugin demonstration of problematic argument quoting
 
-I have run into an issue with Spring AOT. My application uses variables to include
+I have run into [an issue](https://github.com/spring-projects/spring-boot/issues/46555) with Spring AOT. My application uses variables to include
 further profiles.
 
 [`application.yaml`](./src/main/resources/application.yaml):
